@@ -61,7 +61,7 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: Permanent Chainmail Armor
+          display-name: "Permanent Chainmail Armor"
           lore:
           - ""
           - "Chainmail Leggings + Boots"
@@ -76,7 +76,7 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: Permanent Iron Armor
+          display-name: "Permanent Iron Armor"
           lore:
           - ""
           - "Iron Leggings + Boots"
@@ -91,7 +91,7 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: Permanent Diamond Armor
+          display-name: "Permanent Diamond Armor"
           lore:
           - ""
           - "Diamond Leggings + Boots"
@@ -106,7 +106,7 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: Upgrade All Team Armor
+          display-name: "Upgrade All Team Armor"
           enchants:
             PROTECTION_ENVIRONMENTAL: 1
           ItemFlags:
@@ -121,7 +121,7 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: Upgrade All Team Armor
+          display-name: "Upgrade All Team Armor"
           enchants:
             PROTECTION_ENVIRONMENTAL: 2
           ItemFlags:
@@ -136,7 +136,7 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: Upgrade All Team Armor
+          display-name: "Upgrade All Team Armor"
           enchants:
             PROTECTION_ENVIRONMENTAL: 3
           ItemFlags:
@@ -151,9 +151,9 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: Upgrade All Team Armor
+          display-name: "Upgrade All Team Armor"
           enchants:
-            PROTECTION_ENVIRONMENTAL: 4
+            PROTECTION_ENVIRONMENTAL: 1
           ItemFlags:
           - HIDE_ATTRIBUTES
           lore:
@@ -171,19 +171,39 @@ shop:
         amount: 10
       reward:
       - type: STONE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
     - price:
       - type: GOLD_INGOT
         amount: 7
       reward:
       - type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
     - price:
       - type: EMERALD
         amount: 4
       reward:
       - type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
     - price:
       - type: GOLD_INGOT
         amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
       reward:
       - type: STICK
         meta:
@@ -191,6 +211,23 @@ shop:
           meta-type: UNSPECIFIC
           enchants:
             KNOCKBACK: 1
+          lore:
+          - ""
+    - price:
+      - type: DIAMOND
+        amount: 4
+      reward:
+      - type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "Upgrade All Team Swords"
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          lore:
+          - ""
   bows:
     item: 261
     name: "Bows"
@@ -344,36 +381,66 @@ shop:
       reward:
       - type: WOOL
         amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
     - price:
       - type: IRON_INGOT
         amount: 12
       reward:
       - type: SANDSTONE
         amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
     - price:
       - type: IRON_INGOT
         amount: 24
       reward:
       - type: ENDER_STONE
         amount: 12
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
     - price:
       - type: IRON_INGOT
         amount: 4
       reward:
       - type: LADDER
         amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
     - price:
       - type: GOLD_INGOT
         amount: 4
       reward:
       - type: WOOD
         amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
     - price:
       - type: EMERALD
         amount: 4
       reward:
       - type: OBSIDIAN
         amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
   usefulstuff:
     item: TNT
     name: "Useful Stuff"
