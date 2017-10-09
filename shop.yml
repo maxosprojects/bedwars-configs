@@ -201,18 +201,33 @@ shop:
     offers:
     - price:
       - type: GOLD_INGOT
-        amount: 3
+        amount: 2
+      reward:
+      - type: ARROW
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
+    - price:
+      - type: GOLD_INGOT
+        amount: 12
       reward:
       - type: BOW
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
           enchants:
-            ARROW_INFINITE: 0
-          display-name: "Bow"
+            ARROW_INFINITE: 1
+          display-name: "Bow I"
+          lore:
+          - ""
+          ItemFlags:
+          - HIDE_ENCHANTS
     - price:
       - type: GOLD_INGOT
-        amount: 7
+        amount: 24
       reward:
       - type: BOW
         meta:
@@ -220,49 +235,33 @@ shop:
           meta-type: UNSPECIFIC
           enchants:
             ARROW_DAMAGE: 1
-            ARROW_INFINITE: 0
-          display-name: "Bow [Dmg 1]"
+            ARROW_INFINITE: 1
+          display-name: "Bow II"
+          lore:
+          - ""
+          - "Power I"
+          - ""
+          ItemFlags:
+          - HIDE_ENCHANTS
     - price:
-      - type: GOLD_INGOT
-        amount: 13
+      - type: EMERALD
+        amount: 6
       reward:
       - type: BOW
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
           enchants:
-            ARROW_DAMAGE: 2
-            ARROW_INFINITE: 0
-          display-name: "Bow [Dmg 2]"
-    - price:
-      - type: GOLD_INGOT
-        amount: 16
-      reward:
-      - type: BOW
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          enchants:
-            ARROW_FIRE: 1
-            ARROW_INFINITE: 0
-          display-name: "Bow [Fire]"
-    - price:
-      - type: GOLD_INGOT
-        amount: 15
-      reward:
-      - type: BOW
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          enchants:
+            ARROW_DAMAGE: 1
+            ARROW_INFINITE: 1
             ARROW_KNOCKBACK: 1
-            ARROW_FIRE: 1
-            ARROW_INFINITE: 0
-          display-name: "Bow [Fire + Knockback]"
-    - price:
-      - type: IRON_INGOT
-      reward:
-      - type: ARROW
+          display-name: "Bow III"
+          lore:
+          - ""
+          - "Power I + Punch I"
+          - ""
+          ItemFlags:
+          - HIDE_ENCHANTS
   eat:
     item: GRILLED_PORK
     name: Eat
