@@ -337,35 +337,44 @@ shop:
     order: 60
     permission: bw.base
     lore:
-    - "Get to the others! Possible with blocks."
+    - "Build something for protection or attack!"
     offers:
     - price:
-      - type: CLAY_BRICK
+      - type: IRON_INGOT
+        amount: 4
       reward:
       - type: WOOL
-        damage: 1
-        amount: 2
+        amount: 16
     - price:
-      - type: CLAY_BRICK
-        amount: 7
+      - type: IRON_INGOT
+        amount: 12
       reward:
       - type: SANDSTONE
+        amount: 16
     - price:
       - type: IRON_INGOT
-        amount: 2
+        amount: 24
       reward:
       - type: ENDER_STONE
+        amount: 12
     - price:
       - type: IRON_INGOT
-        amount: 5
+        amount: 4
       reward:
-      - type: IRON_BLOCK
-        amount: 5
+      - type: LADDER
+        amount: 16
     - price:
       - type: GOLD_INGOT
         amount: 4
       reward:
-      - type: GLASS
+      - type: WOOD
+        amount: 16
+    - price:
+      - type: EMERALD
+        amount: 4
+      reward:
+      - type: OBSIDIAN
+        amount: 4
   usefulstuff:
     item: TNT
     name: "Useful Stuff"
