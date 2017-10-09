@@ -1,0 +1,216 @@
+name: Trees
+world: Trees
+loc1:
+  world: Trees
+  x: -135.21463086143993
+  y: 119.77662611924178
+  z: -135.21463086143993
+  pitch: 31.50052833557129
+  yaw: -94.796142578125
+loc2:
+  world: Trees
+  x: 153.15583788666135
+  y: 42.915139673753124
+  z: 153.15583788666135
+  pitch: 13.500500679016113
+  yaw: -265.045166015625
+lobby:
+  world: Lobby
+  x: -0.4297411778739148
+  y: 118.0
+  z: -0.6676811814846332
+  pitch: -0.5999550819396973
+  yaw: -90.89989471435547
+minplayers: 2
+regionname: Trees
+time: 1000
+targetmaterial: BED_BLOCK
+builder: Max
+autobalance: false
+hunger-enabled: false
+spawner:
+- ==: RessourceSpawner
+  name: emerald
+  location:
+    world: Trees
+    x: -6.620732681014969
+    y: 71.0
+    z: -10.583889833612815
+    pitch: 0.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: emerald
+  location:
+    world: Trees
+    x: 8.615048280756103
+    y: 71.0
+    z: 12.51018106977726
+    pitch: 0.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Trees
+    x: 29.561910223389404
+    y: 67.0
+    z: -30.659073496871237
+    pitch: 0.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Trees
+    x: 31.629420883903833
+    y: 67.0
+    z: 29.62175956113019
+    pitch: 0.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Trees
+    x: -28.50431241067517
+    y: 67.0
+    z: 31.516731596585032
+    pitch: 0.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Trees
+    x: -30.57534809144291
+    y: 67.0
+    z: -28.654201264209135
+    pitch: 0.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Trees
+    x: 82.88542464702009
+    y: 66.0
+    z: 0.5039340584151699
+    pitch: 0.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Trees
+    x: 0.5036336303498858
+    y: 66.0
+    z: 82.77564469986427
+    pitch: 0.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Trees
+    x: 82.88542464702009
+    y: 66.0
+    z: 0.5039340584151699
+    pitch: 0.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Trees
+    x: 0.5036336303498858
+    y: 66.0
+    z: 82.77564469986427
+    pitch: 0.0
+    yaw: 0.0
+teams:
+  Red:
+    ==: Team
+    bedfeed:
+      world: Trees
+      x: 66.0
+      y: 67.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Trees
+      x: 78.71640668173087
+      y: 66.0
+      z: 0.8309895853617819
+      pitch: -2.3998734951019287
+      yaw: -271.7994384765625
+    color: RED
+    name: Red
+    maxplayers: 1
+    baseloc1:
+      world: Trees
+      x: 86.2729463465822
+      y: 97.84230972470212
+      z: 13.6412883613524
+      pitch: -4.94997501373291
+      yaw: 82.65023040771484
+    baseloc2:
+      world: Trees
+      x: 60.68969184054972
+      y: 45.39436622547988
+      z: -9.99572635167708
+      pitch: -8.999853134155273
+      yaw: 289.4998779296875
+    bedhead:
+      world: Trees
+      x: 67.0
+      y: 67.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    chestloc:
+      world: Trees
+      x: 77.0
+      y: 66.0
+      z: 3.0
+      pitch: 0.0
+      yaw: 0.0
+  Blue:
+    ==: Team
+    bedfeed:
+      world: Trees
+      x: 0.0
+      y: 67.0
+      z: 66.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Trees
+      x: 0.21085835210309148
+      y: 66.0
+      z: 78.68852232811884
+      pitch: -0.14994074404239655
+      yaw: -181.79977416992188
+    color: BLUE
+    name: Blue
+    maxplayers: 1
+    baseloc1:
+      world: Trees
+      x: -13.385411014735718
+      y: 98.23685160146759
+      z: 85.4321617545456
+      pitch: -0.8999891877174377
+      yaw: -184.49981689453125
+    baseloc2:
+      world: Trees
+      x: 11.828473670414061
+      y: 46.87813174894358
+      z: 61.015305030902454
+      pitch: 18.15007972717285
+      yaw: 7.199854850769043
+    bedhead:
+      world: Trees
+      x: 0.0
+      y: 67.0
+      z: 67.0
+      pitch: 0.0
+      yaw: 0.0
+    chestloc:
+      world: Trees
+      x: -3.0
+      y: 66.0
+      z: 77.0
+      pitch: 0.0
+      yaw: 0.0
