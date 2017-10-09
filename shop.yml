@@ -167,67 +167,29 @@ shop:
     - "Click here to get sword for attacking your enemies"
     offers:
     - price:
-      - type: CLAY_BRICK
-        amount: 8
+      - type: IRON_INGOT
+        amount: 10
+      reward:
+      - type: STONE_SWORD
+    - price:
+      - type: GOLD_INGOT
+        amount: 7
+      reward:
+      - type: IRON_SWORD
+    - price:
+      - type: EMERALD
+        amount: 4
+      reward:
+      - type: DIAMOND_SWORD
+    - price:
+      - type: GOLD_INGOT
+        amount: 10
       reward:
       - type: STICK
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
           enchants:
-            KNOCKBACK: 1
-    - price:
-      - type: IRON_INGOT
-      reward:
-      - type: WOOD_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          enchants:
-            DAMAGE_ALL: 1
-    - price:
-      - type: IRON_INGOT
-        amount: 3
-      reward:
-      - type: GOLD_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          enchants:
-            DAMAGE_ALL: 2
-    - price:
-      - type: IRON_INGOT
-        amount: 7
-      reward:
-      - type: STONE_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          enchants:
-            DAMAGE_ALL: 3
-    - price:
-      - type: GOLD_INGOT
-        amount: 3
-      reward:
-      - type: IRON_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          enchants:
-            DAMAGE_ALL: 2
-            KNOCKBACK: 1
-    - price:
-      - type: GOLD_INGOT
-        amount: 15
-      reward:
-      - type: GOLD_AXE
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: "Axe of Infinity"
-          enchants:
-            DAMAGE_ALL: 1
-            DURABILITY: 1
             KNOCKBACK: 1
   bows:
     item: 261
