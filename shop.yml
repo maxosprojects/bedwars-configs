@@ -1,6 +1,38 @@
 ### SHOP ###
 ### NOT ALLOWED CATEGORY MATERIAL: SLIME_BALL, SNOW_BALL, BUCKET, LAVA_BUCKET
 shop:
+  cheats:
+    item: GOLDEN_APPLE
+    name: "Cheats"
+    order: 5
+    permission: bw.base
+    lore:
+    - "Cheat a bit"
+    offers:
+    - price:
+      - type: IRON_INGOT
+        amount: 0
+      reward:
+      - type: IRON_INGOT
+        amount: 50
+    - price:
+      - type: IRON_INGOT
+        amount: 0
+      reward:
+      - type: GOLD_INGOT
+        amount: 50
+    - price:
+      - type: IRON_INGOT
+        amount: 0
+      reward:
+      - type: DIAMOND
+        amount: 50
+    - price:
+      - type: IRON_INGOT
+        amount: 0
+      reward:
+      - type: EMERALD
+        amount: 50
   armor:
     item: DIAMOND_CHESTPLATE
     name: "Armour"
@@ -10,136 +42,122 @@ shop:
     - "Protect yourself with armor! Click here."
     offers:
     # - price:
-    #   - type: CLAY_BRICK
+    #   - type: IRON_INGOT
+    #     amount: 6
     #   reward:
-    #   - type: LEATHER_LEGGINGS
+    #   - type: IRON_BOOTS
     #     meta:
     #       ==: ItemMeta
-    #       meta-type: LEATHER_ARMOR
-    #       enchants:
-    #         PROTECTION_ENVIRONMENTAL: 1
-    # - price:
-    #   - type: CLAY_BRICK
-    #   reward:
-    #   - type: LEATHER_LEGGINGS
-    #     meta:
-    #       ==: ItemMeta
-    #       meta-type: LEATHER_ARMOR
-    #       enchants:
-    #         PROTECTION_ENVIRONMENTAL: 1
-    # - price:
-    #   - type: CLAY_BRICK
-    #   reward:
-    #   - type: LEATHER_BOOTS
-    #     meta:
-    #       ==: ItemMeta
-    #       meta-type: LEATHER_ARMOR
-    #       enchants:
-    #         PROTECTION_ENVIRONMENTAL: 1
+    #       meta-type: UNSPECIFIC
+    #       display-name: "Magnet-Shoes"
+    #       lore:
+    #       - "Wear those shoes and have a 75%"
+    #       - "chance of getting no knockback!"
     - price:
       - type: IRON_INGOT
-        amount: 1
+        amount: 40
       reward:
-      - type: IRON_INGOT
-        amount: 50
-    - price:
-      - type: IRON_INGOT
-        amount: 1
-      reward:
-      - type: GOLD_INGOT
-        amount: 50
-    - price:
-      - type: IRON_INGOT
-        amount: 6
-      reward:
-      - type: IRON_BOOTS
+      - type: CHAINMAIL_LEGGINGS
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: "Magnet-Shoes"
+          display-name: Permanent Chainmail Armor
           lore:
-          - "Wear those shoes and have a 75%"
-          - "chance of getting no knockback!"
+          - ""
+          - "Chainmail Leggings + Boots"
+          - ""
+          ItemFlags:
+          - HIDE_ATTRIBUTES
     - price:
       - type: GOLD_INGOT
-        amount: 1
-      reward:
-      - type: IRON_BOOTS
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          enchants:
-            PROTECTION_ENVIRONMENTAL: 3
-    - price:
-      - type: GOLD_INGOT
-        amount: 2
-      reward:
-      - type: DIAMOND_BOOTS
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          enchants:
-            PROTECTION_ENVIRONMENTAL: 3
-    - price:
-      - type: GOLD_INGOT
-        amount: 2
+        amount: 12
       reward:
       - type: IRON_LEGGINGS
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          enchants:
-            PROTECTION_ENVIRONMENTAL: 5
+          display-name: Permanent Iron Armor
+          lore:
+          - ""
+          - "Iron Leggings + Boots"
+          - ""
+          ItemFlags:
+          - HIDE_ATTRIBUTES
     - price:
-      - type: GOLD_INGOT
-        amount: 4
+      - type: EMERALD
+        amount: 6
       reward:
       - type: DIAMOND_LEGGINGS
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
+          display-name: Permanent Diamond Armor
+          lore:
+          - ""
+          - "Diamond Leggings + Boots"
+          - ""
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+    - price:
+      - type: DIAMOND
+        amount: 2
+      reward:
+      - type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Upgrade All Team Armor
           enchants:
-            PROTECTION_ENVIRONMENTAL: 5
-    # - price:
-    #   - type: IRON_INGOT
-    #   reward:
-    #   - type: CHAINMAIL_CHESTPLATE
-    #     meta:
-    #       ==: ItemMeta
-    #       meta-type: UNSPECIFIC
-    #       enchants:
-    #         PROTECTION_ENVIRONMENTAL: 1
-    # - price:
-    #   - type: IRON_INGOT
-    #     amount: 3
-    #   reward:
-    #   - type: CHAINMAIL_CHESTPLATE
-    #     meta:
-    #       ==: ItemMeta
-    #       meta-type: UNSPECIFIC
-    #       enchants:
-    #         PROTECTION_ENVIRONMENTAL: 2
-    # - price:
-    #   - type: IRON_INGOT
-    #     amount: 7
-    #   reward:
-    #   - type: CHAINMAIL_CHESTPLATE
-    #     meta:
-    #       ==: ItemMeta
-    #       meta-type: UNSPECIFIC
-    #       enchants:
-    #         PROTECTION_ENVIRONMENTAL: 3
-    # - price:
-    #   - type: GOLD_INGOT
-    #     amount: 10
-    #   reward:
-    #   - type: IRON_HELMET
-    #     meta:
-    #       ==: ItemMeta
-    #       meta-type: UNSPECIFIC
-    #       display-name: Helm
-    #       enchants:
-    #         PROTECTION_ENVIRONMENTAL: 2
+            PROTECTION_ENVIRONMENTAL: 1
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          lore:
+          - ""
+    - price:
+      - type: DIAMOND
+        amount: 4
+      reward:
+      - type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Upgrade All Team Armor
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          lore:
+          - ""
+    - price:
+      - type: DIAMOND
+        amount: 8
+      reward:
+      - type: GOLD_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Upgrade All Team Armor
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          lore:
+          - ""
+    - price:
+      - type: DIAMOND
+        amount: 16
+      reward:
+      - type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Upgrade All Team Armor
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          lore:
+          - ""
   swords:
     item: DIAMOND_SWORD
     name: "Swords"
