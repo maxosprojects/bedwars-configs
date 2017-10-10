@@ -3,11 +3,11 @@
 shop:
   cheats:
     item: GOLDEN_APPLE
-    name: "Cheats"
+    name: "&r&aCheats"
     order: 5
     permission: bw.base
     lore:
-    - "Cheat a bit"
+    - "&r&6Cheat a bit"
     offers:
     - price:
       - type: IRON_INGOT
@@ -35,11 +35,11 @@ shop:
         amount: 50
   armor:
     item: DIAMOND_CHESTPLATE
-    name: "Armour"
+    name: "&r&aArmor"
     order: 10
     permission: bw.base
     lore:
-    - "Protect yourself with armor! Click here."
+    - "&r&6Get or upgrade your armor"
     offers:
     # - price:
     #   - type: IRON_INGOT
@@ -61,10 +61,9 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: "Permanent Chainmail Armor"
+          display-name: "&rPermanent Chainmail Armor"
           lore:
-          - ""
-          - "Chainmail Leggings + Boots"
+          - "&r&6Chainmail Leggings + Boots"
           - ""
           ItemFlags:
           - HIDE_ATTRIBUTES
@@ -76,10 +75,9 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: "Permanent Iron Armor"
+          display-name: "&rPermanent Iron Armor"
           lore:
-          - ""
-          - "Iron Leggings + Boots"
+          - "&r&6Iron Leggings + Boots"
           - ""
           ItemFlags:
           - HIDE_ATTRIBUTES
@@ -91,10 +89,9 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: "Permanent Diamond Armor"
+          display-name: "&rPermanent Diamond Armor"
           lore:
-          - ""
-          - "Diamond Leggings + Boots"
+          - "&r&6Diamond Leggings + Boots"
           - ""
           ItemFlags:
           - HIDE_ATTRIBUTES
@@ -106,7 +103,7 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: "Upgrade All Team Armor"
+          display-name: "&r&6Upgrade All Team Armor"
           enchants:
             PROTECTION_ENVIRONMENTAL: 1
           ItemFlags:
@@ -121,7 +118,7 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: "Upgrade All Team Armor"
+          display-name: "&r&6Upgrade All Team Armor"
           enchants:
             PROTECTION_ENVIRONMENTAL: 2
           ItemFlags:
@@ -136,7 +133,7 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: "Upgrade All Team Armor"
+          display-name: "&r&6Upgrade All Team Armor"
           enchants:
             PROTECTION_ENVIRONMENTAL: 3
           ItemFlags:
@@ -151,7 +148,7 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: "Upgrade All Team Armor"
+          display-name: "&r&6Upgrade All Team Armor"
           enchants:
             PROTECTION_ENVIRONMENTAL: 1
           ItemFlags:
@@ -160,11 +157,11 @@ shop:
           - ""
   swords:
     item: DIAMOND_SWORD
-    name: "Swords"
+    name: "&r&aSwords"
     order: 20
     permission: bw.base
     lore:
-    - "Click here to get sword for attacking your enemies"
+    - "&r&6Get a sword or upgrade your entire team's swords!"
     offers:
     - price:
       - type: IRON_INGOT
@@ -221,7 +218,7 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: "Upgrade All Team Swords"
+          display-name: "&r&bUpgrade All Team Swords"
           enchants:
             DAMAGE_ALL: 1
           ItemFlags:
@@ -230,11 +227,11 @@ shop:
           - ""
   bows:
     item: 261
-    name: "Bows"
+    name: "&r&aBows"
     order: 30
     permission: bw.base
     lore:
-    - "Prove yourself as a marksman with these wonderful bows"
+    - "&r&6Prove yourself as a marksman with these wonderful bows"
     offers:
     - price:
       - type: GOLD_INGOT
@@ -257,7 +254,7 @@ shop:
           meta-type: UNSPECIFIC
           enchants:
             ARROW_INFINITE: 1
-          display-name: "Bow I"
+          display-name: "&r&bBow I"
           lore:
           - ""
           ItemFlags:
@@ -273,10 +270,9 @@ shop:
           enchants:
             ARROW_DAMAGE: 1
             ARROW_INFINITE: 1
-          display-name: "Bow II"
+          display-name: "&r&bBow II"
           lore:
-          - ""
-          - "Power I"
+          - "&r&7Power I"
           - ""
           ItemFlags:
           - HIDE_ENCHANTS
@@ -292,20 +288,19 @@ shop:
             ARROW_DAMAGE: 1
             ARROW_INFINITE: 1
             ARROW_KNOCKBACK: 1
-          display-name: "Bow III"
+          display-name: "&r&bBow III"
           lore:
-          - ""
-          - "Power I + Punch I"
+          - "&r&7Power I + Punch I"
           - ""
           ItemFlags:
           - HIDE_ENCHANTS
   eat:
     item: GRILLED_PORK
-    name: Eat
+    name: "&r&aEat"
     order: 40
     permission: bw.base
     lore:
-    - "Are you hungry? Get something to eat."
+    - "&r&6Are you hungry? Get something to eat."
     offers:
     - price:
       - type: CLAY_BRICK
@@ -324,56 +319,89 @@ shop:
         amount: 1
       reward:
       - type: GOLDEN_APPLE
-  pickaxes:
+  tools:
     item: DIAMOND_PICKAXE
-    name: "Pickaxes"
+    name: "&r&aTools"
     order: 50
     permission: bw.base
     lore:
-    - "Destroy others blocks? Use these pickaxes."
+    - "&r&6Need to destroy some blocks?"
     offers:
     - price:
       - type: IRON_INGOT
-        amount: 2
+        amount: 30
       reward:
       - type: SHEARS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
     - price:
       - type: IRON_INGOT
-        amount: 3
+        amount: 10
       reward:
       - type: WOOD_PICKAXE
-        # meta:
-        #   ==: ItemMeta
-        #   meta-type: UNSPECIFIC
-        #   enchants:
-        #     LOOT_BONUS_BLOCKS: 1
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
+    - price:
+      - type: IRON_INGOT
+        amount: 20
+      reward:
+      - type: STONE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 1
+          lore:
+          - ""
     - price:
       - type: GOLD_INGOT
-        amount: 2
+        amount: 8
       reward:
       - type: IRON_PICKAXE
-        # meta:
-        #   ==: ItemMeta
-        #   meta-type: UNSPECIFIC
-        #   enchants:
-        #     LOOT_BONUS_BLOCKS: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 2
+          lore:
+          - ""
     - price:
       - type: GOLD_INGOT
-        amount: 4
+        amount: 12
       reward:
       - type: DIAMOND_PICKAXE
-        # meta:
-        #   ==: ItemMeta
-        #   meta-type: UNSPECIFIC
-        #   enchants:
-        #     LOOT_BONUS_BLOCKS: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 3
+          lore:
+          - ""
+    - price:
+      - type: GOLD_INGOT
+        amount: 12
+      reward:
+      - type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 2
+          lore:
+          - ""
   blocks:
     item: SANDSTONE
-    name: "Blocks"
+    name: "&r&aBlocks"
     order: 60
     permission: bw.base
     lore:
-    - "Build something for protection or attack!"
+    - "&r&6Build something for protection or attack!"
     offers:
     - price:
       - type: IRON_INGOT
@@ -443,17 +471,22 @@ shop:
           - ""
   usefulstuff:
     item: TNT
-    name: "Useful Stuff"
+    name: "&r&aUseful Stuff"
     order: 70
     permission: bw.base
     lore:
-    - "Looking for useful stuff? Here are some!"
+    - "&r&6Looking for useful stuff? Here are some!"
     offers:
     - price:
       - type: IRON_INGOT
         amount: 5
       reward:
       - type: TNT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
     # - price:
     #   - type: IRON_INGOT
     #   reward:
@@ -486,9 +519,10 @@ shop:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: "Base Alarm"
+          display-name: "&r&bBase Alarm"
           lore:
-          - "Get informed when an enemy steps into your base and your enemy won't be able to move properly."
+          - "&r&6Get informed when an enemy steps into your base and your enemy won't be able to move properly"
+          - ""
     # - price:
     #   - type: CLAY_BRICK
     #     amount: 64
@@ -544,111 +578,84 @@ shop:
         amount: 5
       reward:
       - type: COMPASS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
     - price:
       - type: GOLD_INGOT
         amount: 2
       reward:
       - type: ENDER_PEARL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
   drinks:
     item: POTION
-    name: "Drinks"
+    name: "&r&aPotions"
     order: 80
     permission: bw.base
     lore:
-    - "Not enough? Use these potions and you'll feel better!"
+    - "&r&6Liquid magic"
     offers:
     - price:
-      - type: IRON_INGOT
-        amount: 3
-      reward:
-      - type: POTION
-        meta:
-          ==: ItemMeta
-          meta-type: POTION
-          potion-type: minecraft:healing
-          display-name: "Instant Health"
-    - price:
-      - type: IRON_INGOT
-        amount: 5
-      reward:
-      - type: POTION
-        meta:
-          ==: ItemMeta
-          meta-type: POTION
-          potion-type: minecraft:strong_healing
-          display-name: "Instant Health II"
-    - price:
-      - type: IRON_INGOT
-        amount: 7
+      - type: EMERALD
+        amount: 1
       reward:
       - type: POTION
         meta:
           ==: ItemMeta
           meta-type: POTION
           # potion-type: minecraft:swiftness
-          display-name: "Speed :30"
+          display-name: "&rSwiftness"
           custom-effects:
           - ==: PotionEffect
             effect: 1
             amplifier: 1
-            duration: 600
+            duration: 900
+          lore:
+          - ""
     - price:
-      - type: IRON_INGOT
-        amount: 10
+      - type: EMERALD
+        amount: 1
       reward:
       - type: POTION
         meta:
           ==: ItemMeta
           meta-type: POTION
           # potion-type: minecraft:jump_boost
-          display-name: "Jump Boost :30"
+          display-name: "&rLeaping"
           custom-effects:
           - ==: PotionEffect
             effect: 8
-            amplifier: 1
-            duration: 600
+            amplifier: 4
+            duration: 900
+          lore:
+          - "&r&9Jump Boost V (0:45)"
+          - ""
+          ItemFlags:
+          - HIDE_POTION_EFFECTS
     - price:
-      - type: GOLD_INGOT
+      - type: EMERALD
+        amount: 1
       reward:
       - type: POTION
         meta:
           ==: ItemMeta
           meta-type: POTION
-          # potion-type: minecraft:strength
-          display-name: "Strength :30"
-          custom-effects:
-          - ==: PotionEffect
-            effect: 5
-            amplifier: 0
-            duration: 600
-    - price:
-      - type: GOLD_INGOT
-        amount: 3
-      reward:
-      - type: POTION
-        meta:
-          ==: ItemMeta
-          meta-type: POTION
-          potion-type: minecraft:regeneration
-          display-name: "Healing :45"
-          # custom-effects:
-          # - ==: PotionEffect
-          #   effect: 10
-          #   amplifier: 1
-          #   duration: 600
-    - price:
-      - type: GOLD_INGOT
-        amount: 3
-      reward:
-      - type: POTION
-        meta:
-          ==: ItemMeta
-          meta-type: POTION
-          potion-type: minecraft:invisibility
-          display-name: "Invisibility :30"
+          # potion-type: minecraft:invisibility
+          display-name: "&rInvisibility"
           custom-effects:
           - ==: PotionEffect
             effect: 14
             amplifier: 1
             duration: 600
+          lore:
+          - "&r&9Invisibility (0:30)"
+          - ""
+          ItemFlags:
+          - HIDE_POTION_EFFECTS
 schema-version: 1
