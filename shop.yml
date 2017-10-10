@@ -4,7 +4,7 @@ shop:
   cheats:
     item: GOLDEN_APPLE
     name: "&r&aCheats"
-    order: 5
+    order: 10
     permission: bw.base
     lore:
     - "&r&6Cheat a bit"
@@ -33,26 +33,88 @@ shop:
       reward:
       - type: EMERALD
         amount: 50
+  blocks:
+    item: SANDSTONE
+    name: "&r&aBlocks"
+    order: 20
+    permission: bw.base
+    lore:
+    - "&r&6Build something for protection or attack!"
+    offers:
+    - price:
+      - type: IRON_INGOT
+        amount: 4
+      reward:
+      - type: WOOL
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
+    - price:
+      - type: IRON_INGOT
+        amount: 12
+      reward:
+      - type: SANDSTONE
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
+    - price:
+      - type: IRON_INGOT
+        amount: 24
+      reward:
+      - type: ENDER_STONE
+        amount: 12
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
+    - price:
+      - type: IRON_INGOT
+        amount: 4
+      reward:
+      - type: LADDER
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
+    - price:
+      - type: GOLD_INGOT
+        amount: 4
+      reward:
+      - type: WOOD
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
+    - price:
+      - type: EMERALD
+        amount: 4
+      reward:
+      - type: OBSIDIAN
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
   armor:
     item: DIAMOND_CHESTPLATE
     name: "&r&aArmor"
-    order: 10
+    order: 30
     permission: bw.base
     lore:
     - "&r&6Get or upgrade your armor"
     offers:
-    # - price:
-    #   - type: IRON_INGOT
-    #     amount: 6
-    #   reward:
-    #   - type: IRON_BOOTS
-    #     meta:
-    #       ==: ItemMeta
-    #       meta-type: UNSPECIFIC
-    #       display-name: "Magnet-Shoes"
-    #       lore:
-    #       - "Wear those shoes and have a 75%"
-    #       - "chance of getting no knockback!"
     - price:
       - type: IRON_INGOT
         amount: 40
@@ -155,174 +217,10 @@ shop:
           - HIDE_ATTRIBUTES
           lore:
           - ""
-  swords:
-    item: DIAMOND_SWORD
-    name: "&r&aSwords"
-    order: 20
-    permission: bw.base
-    lore:
-    - "&r&6Get a sword or upgrade your entire team's swords!"
-    offers:
-    - price:
-      - type: IRON_INGOT
-        amount: 10
-      reward:
-      - type: STONE_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          lore:
-          - ""
-    - price:
-      - type: GOLD_INGOT
-        amount: 7
-      reward:
-      - type: IRON_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          lore:
-          - ""
-    - price:
-      - type: EMERALD
-        amount: 4
-      reward:
-      - type: DIAMOND_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          lore:
-          - ""
-    - price:
-      - type: GOLD_INGOT
-        amount: 10
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          lore:
-          - ""
-      reward:
-      - type: STICK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          enchants:
-            KNOCKBACK: 1
-          lore:
-          - ""
-    - price:
-      - type: DIAMOND
-        amount: 4
-      reward:
-      - type: GOLD_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: "&r&bUpgrade All Team Swords"
-          enchants:
-            DAMAGE_ALL: 1
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          lore:
-          - ""
-  bows:
-    item: 261
-    name: "&r&aBows"
-    order: 30
-    permission: bw.base
-    lore:
-    - "&r&6Prove yourself as a marksman with these wonderful bows"
-    offers:
-    - price:
-      - type: GOLD_INGOT
-        amount: 2
-      reward:
-      - type: ARROW
-        amount: 8
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          lore:
-          - ""
-    - price:
-      - type: GOLD_INGOT
-        amount: 12
-      reward:
-      - type: BOW
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          enchants:
-            ARROW_INFINITE: 1
-          display-name: "&r&bBow I"
-          lore:
-          - ""
-          ItemFlags:
-          - HIDE_ENCHANTS
-    - price:
-      - type: GOLD_INGOT
-        amount: 24
-      reward:
-      - type: BOW
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          enchants:
-            ARROW_DAMAGE: 1
-            ARROW_INFINITE: 1
-          display-name: "&r&bBow II"
-          lore:
-          - "&r&7Power I"
-          - ""
-          ItemFlags:
-          - HIDE_ENCHANTS
-    - price:
-      - type: EMERALD
-        amount: 6
-      reward:
-      - type: BOW
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          enchants:
-            ARROW_DAMAGE: 1
-            ARROW_INFINITE: 1
-            ARROW_KNOCKBACK: 1
-          display-name: "&r&bBow III"
-          lore:
-          - "&r&7Power I + Punch I"
-          - ""
-          ItemFlags:
-          - HIDE_ENCHANTS
-  eat:
-    item: GRILLED_PORK
-    name: "&r&aEat"
-    order: 40
-    permission: bw.base
-    lore:
-    - "&r&6Are you hungry? Get something to eat."
-    offers:
-    - price:
-      - type: CLAY_BRICK
-        amount: 10
-      reward:
-      - type: GRILLED_PORK
-        amount: 2
-    - price:
-      - type: IRON_INGOT
-        amount: 10
-      reward:
-      - type: BREAD
-        amount: 5
-    - price:
-      - type: GOLD_INGOT
-        amount: 1
-      reward:
-      - type: GOLDEN_APPLE
   tools:
     item: DIAMOND_PICKAXE
     name: "&r&aTools"
-    order: 50
+    order: 40
     permission: bw.base
     lore:
     - "&r&6Need to destroy some blocks?"
@@ -395,53 +293,19 @@ shop:
             DIG_SPEED: 2
           lore:
           - ""
-  blocks:
-    item: SANDSTONE
-    name: "&r&aBlocks"
-    order: 60
+  weapons:
+    item: DIAMOND_SWORD
+    name: "&r&aWeapons"
+    order: 50
     permission: bw.base
     lore:
-    - "&r&6Build something for protection or attack!"
+    - "&r&6Get or upgrade weapons"
     offers:
     - price:
       - type: IRON_INGOT
-        amount: 4
+        amount: 10
       reward:
-      - type: WOOL
-        amount: 16
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          lore:
-          - ""
-    - price:
-      - type: IRON_INGOT
-        amount: 12
-      reward:
-      - type: SANDSTONE
-        amount: 16
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          lore:
-          - ""
-    - price:
-      - type: IRON_INGOT
-        amount: 24
-      reward:
-      - type: ENDER_STONE
-        amount: 12
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          lore:
-          - ""
-    - price:
-      - type: IRON_INGOT
-        amount: 4
-      reward:
-      - type: LADDER
-        amount: 16
+      - type: STONE_SWORD
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -449,10 +313,9 @@ shop:
           - ""
     - price:
       - type: GOLD_INGOT
-        amount: 4
+        amount: 7
       reward:
-      - type: WOOD
-        amount: 16
+      - type: IRON_SWORD
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -462,122 +325,7 @@ shop:
       - type: EMERALD
         amount: 4
       reward:
-      - type: OBSIDIAN
-        amount: 4
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          lore:
-          - ""
-  usefulstuff:
-    item: TNT
-    name: "&r&aUseful Stuff"
-    order: 70
-    permission: bw.base
-    lore:
-    - "&r&6Looking for useful stuff? Here are some!"
-    offers:
-    - price:
-      - type: IRON_INGOT
-        amount: 5
-      reward:
-      - type: TNT
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          lore:
-          - ""
-    # - price:
-    #   - type: IRON_INGOT
-    #   reward:
-    #   - type: FLINT_AND_STEEL
-    # - price:
-    #   - type: IRON_INGOT
-    #   reward:
-    #   - type: CHEST
-    # - price:
-    #   - type: GOLD_INGOT
-    #   reward:
-    #   - type: ENDER_CHEST
-    # - price:
-    #   - type: IRON_INGOT
-    #     amount: 15
-    #   reward:
-    #   - type: BLAZE_ROD
-    #     meta:
-    #       ==: ItemMeta
-    #       meta-type: UNSPECIFIC
-    #       display-name: "Rescue Platform"
-    #       lore:
-    #       - "Protect yourself from falling into"
-    #       - "void with a rescue platform"
-    - price:
-      - type: IRON_INGOT
-        amount: 3
-      reward:
-      - type: TRIPWIRE_HOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: "&r&bBase Alarm"
-          lore:
-          - "&r&6Get informed when an enemy steps into your base and your enemy won't be able to move properly"
-          - ""
-    # - price:
-    #   - type: CLAY_BRICK
-    #     amount: 64
-    #   reward:
-    #   - type: BRICK
-    #     meta:
-    #       ==: ItemMeta
-    #       meta-type: UNSPECIFIC
-    #       display-name: "Protection Wall"
-    #       lore:
-    #       - "Use a protection wall to instantely"
-    #       - "create a wall in front of you!"
-    # - price:
-    #   - type: IRON_INGOT
-    #     amount: 7
-    #   reward:
-    #   - type: SULPHUR
-    #     meta:
-    #       ==: ItemMeta
-    #       meta-type: UNSPECIFIC
-    #       display-name: "Warp Powder"
-    #       lore:
-    #       - "When using this powder you'll get"
-    #       - "teleported to you spawn point within 6 seconds"
-    #       - "Warning: Any movement will stop the process"
-    # - price:
-    #   - type: GOLD_INGOT
-    #     amount: 10
-    #   reward:
-    #   - type: MONSTER_EGG
-    #     meta:
-    #       ==: ItemMeta
-    #       meta-type: UNSPECIFIC
-    #       display-name: "TNT-Sheep"
-    #       lore:
-    #       - "Use the TNT-Sheep! It will"
-    #       - "walk towards your closest enemy"
-    #       - "and explode within 8 seconds!"
-    #       internal: H4sIAAAAAAAAAONiYOBi4HTNK8ksqQxJTOdgYMpMYWANzkhNLWBgAAABt1TGHQAAAA==
-    ## Fireball cannot be thrown by a player and meta didn't deserialize. Leave for now.
-    # - price:
-    #   - type: GOLD_INGOT
-    #     amount: 2
-    #   reward:
-    #   - type: FIREBALL
-    #     # meta:
-    #     #   ==: ItemMeta
-    #     #   meta-type: FIREBALL
-    #       # potion-type: minecraft:healing
-    #       # display-name: "Instant Health"
-    - price:
-      - type: IRON_INGOT
-        amount: 5
-      reward:
-      - type: COMPASS
+      - type: DIAMOND_SWORD
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -585,18 +333,109 @@ shop:
           - ""
     - price:
       - type: GOLD_INGOT
-        amount: 2
-      reward:
-      - type: ENDER_PEARL
+        amount: 10
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
           lore:
           - ""
-  drinks:
+      reward:
+      - type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            KNOCKBACK: 1
+          lore:
+          - ""
+    - price:
+      - type: DIAMOND
+        amount: 4
+      reward:
+      - type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "&r&bUpgrade All Team Swords"
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          lore:
+          - ""
+  bows:
+    item: 261
+    name: "&r&aBows"
+    order: 60
+    permission: bw.base
+    lore:
+    - "&r&6Prove yourself as a marksman with these wonderful bows"
+    offers:
+    - price:
+      - type: GOLD_INGOT
+        amount: 2
+      reward:
+      - type: ARROW
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
+    - price:
+      - type: GOLD_INGOT
+        amount: 12
+      reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_INFINITE: 1
+          display-name: "&r&bBow I"
+          lore:
+          - ""
+          ItemFlags:
+          - HIDE_ENCHANTS
+    - price:
+      - type: GOLD_INGOT
+        amount: 24
+      reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 1
+            ARROW_INFINITE: 1
+          display-name: "&r&bBow II"
+          lore:
+          - "&r&7Power I"
+          - ""
+          ItemFlags:
+          - HIDE_ENCHANTS
+    - price:
+      - type: EMERALD
+        amount: 6
+      reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 1
+            ARROW_INFINITE: 1
+            ARROW_KNOCKBACK: 1
+          display-name: "&r&bBow III"
+          lore:
+          - "&r&7Power I + Punch I"
+          - ""
+          ItemFlags:
+          - HIDE_ENCHANTS
+  pootions:
     item: POTION
     name: "&r&aPotions"
-    order: 80
+    order: 70
     permission: bw.base
     lore:
     - "&r&6Liquid magic"
@@ -658,4 +497,92 @@ shop:
           - ""
           ItemFlags:
           - HIDE_POTION_EFFECTS
+  utilities:
+    item: TNT
+    name: "&r&aUtilities"
+    order: 80
+    permission: bw.base
+    lore:
+    - "&r&6Cool stuff!"
+    offers:
+    - price:
+      - type: GOLD_INGOT
+        amount: 3
+      reward:
+      - type: GOLDEN_APPLE
+    - price:
+      - type: DIAMOND
+        amount: 1
+      reward:
+      - type: TRIPWIRE_HOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "&r&bBase Alarm"
+          lore:
+          - "&r&6Get informed when an enemy steps into your base and your enemy won't be able to move properly"
+          - ""
+    # - price:
+    #   - type: IRON_INGOT
+    #     amount: 150
+    #   reward:
+    #   - type: 383
+    #     meta:
+    #       ==: ItemMeta
+    #       meta-type: UNSPECIFIC
+    #       # display-name: "&r&bBase Alarm"
+    #       lore:
+    #       - "&r&6Get informed when an enemy steps into your base and your enemy won't be able to move properly"
+    #       - ""
+    ## Fireball cannot be thrown by a player and meta didn't deserialize. Leave for now.
+    # - price:
+    #   - type: GOLD_INGOT
+    #     amount: 2
+    #   reward:
+    #   - type: FIREBALL
+    #     # meta:
+    #     #   ==: ItemMeta
+    #     #   meta-type: FIREBALL
+    #       # potion-type: minecraft:healing
+    #       # display-name: "Instant Health"
+    - price:
+      - type: GOLD_INGOT
+        amount: 5
+      reward:
+      - type: TNT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
+    # - price:
+    #   - type: IRON_INGOT
+    #     amount: 5
+    #   reward:
+    #   - type: COMPASS
+    #     meta:
+    #       ==: ItemMeta
+    #       meta-type: UNSPECIFIC
+    #       lore:
+    #       - ""
+    - price:
+      - type: EMERALD
+        amount: 4
+      reward:
+      - type: ENDER_PEARL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
+    - price:
+      - type: EMERALD
+        amount: 1
+      reward:
+      - type: WATER_BUCKET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ""
 schema-version: 1
