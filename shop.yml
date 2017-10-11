@@ -526,13 +526,13 @@ shop:
     #   - type: IRON_INGOT
     #     amount: 150
     #   reward:
-    #   - type: 383
+    #   - type: MONSTER_EGG
     #     meta:
     #       ==: ItemMeta
     #       meta-type: UNSPECIFIC
-    #       # display-name: "&r&bBase Alarm"
+    #       # display-name: "&r&bCute golem"
     #       lore:
-    #       - "&r&6Get informed when an enemy steps into your base and your enemy won't be able to move properly"
+    #       - "&r&6Get a golem"
     #       - ""
     ## Fireball cannot be thrown by a player and meta didn't deserialize. Leave for now.
     # - price:
@@ -575,14 +575,14 @@ shop:
           meta-type: UNSPECIFIC
           lore:
           - ""
-    - price:
-      - type: EMERALD
-        amount: 1
-      reward:
-      - type: WATER_BUCKET
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          lore:
-          - ""
+    # - price:
+    #   - type: EMERALD
+    #     amount: 1
+    #   reward:
+    #   - type: WATER_BUCKET
+    #     meta:
+    #       ==: ItemMeta
+    #       meta-type: UNSPECIFIC
+    #       lore:
+    #       - ""
 schema-version: 1
