@@ -28,6 +28,24 @@ targetmaterial: BED_BLOCK
 builder: Max
 autobalance: false
 hunger-enabled: false
+mainlobby:
+  world: Spawn
+  x: 0.20999302438839693
+  y: 60.0
+  z: 0.6973893862612126
+  pitch: 35.250003814697266
+  yaw: 2.5500104427337646
+default-player-inventory:
+  - upgrade:
+      type: ARMOR_ITEM
+      level: 0
+      permanent: true
+  - item:
+      type: WOOD_SWORD
+    upgrade:
+      type: ITEM
+      level: 0
+      permanent: true
 spawner:
 - ==: RessourceSpawner
   name: emerald

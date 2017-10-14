@@ -132,8 +132,8 @@ respawn-protection: 0
 allowed-commands:
 - /help
 endgame:
-  mainlobby-enabled: false
-  all-players-to-mainlobby: false
+  mainlobby-enabled: true
+  all-players-to-mainlobby: true
 bungeecord:
   enabled: false
   hubserver: hub
