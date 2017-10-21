@@ -576,6 +576,7 @@ shop:
               effect: 14
               amplifier: 1
               duration: 600
+              has-particles: false
             lore:
             - "&r&9Invisibility (0:30)"
             - ""
@@ -625,17 +626,11 @@ shop:
       #       lore:
       #       - "&r&6Get a golem"
       #       - ""
-      ## Fireball cannot be thrown by a player and meta didn't deserialize. Leave for now.
-      # - price:
-      #   - type: GOLD_INGOT
-      #     amount: 2
-      #   reward:
-      #     type: FIREBALL
-      #     # meta:
-      #     #   ==: ItemMeta
-      #     #   meta-type: FIREBALL
-      #       # potion-type: minecraft:healing
-      #       # display-name: "Instant Health"
+      - price:
+        - type: IRON_INGOT
+          amount: 50
+        reward:
+          type: FIREBALL
       - price:
         - type: GOLD_INGOT
           amount: 5

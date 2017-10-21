@@ -91,7 +91,7 @@ titles:
 explodes:
   destroy-worldblocks: false
   destroy-beds: false
-  drop-blocking: false
+  block-drops: false
 friendlyfire: false
 friendlybreak: true
 gameoverdelay: 10

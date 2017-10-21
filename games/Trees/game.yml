@@ -28,6 +28,10 @@ targetmaterial: BED_BLOCK
 builder: Max
 autobalance: false
 hunger-enabled: false
+cooldowns:
+  - item: FIREBALL
+    cooldown: 500
+    scope: PLAYER
 mainlobby:
   world: Spawn
   x: 0.20999302438839693
@@ -47,7 +51,7 @@ default-player-inventory:
       level: 0
       permanent: true
 spawner:
-- ==: RessourceSpawner
+- ==: ResourceSpawner
   name: emerald
   location:
     world: Trees
@@ -56,7 +60,7 @@ spawner:
     z: -10.583889833612815
     pitch: 0.0
     yaw: 0.0
-- ==: RessourceSpawner
+- ==: ResourceSpawner
   name: emerald
   location:
     world: Trees
@@ -65,7 +69,7 @@ spawner:
     z: 12.51018106977726
     pitch: 0.0
     yaw: 0.0
-- ==: RessourceSpawner
+- ==: ResourceSpawner
   name: diamond
   location:
     world: Trees
@@ -74,7 +78,7 @@ spawner:
     z: -30.659073496871237
     pitch: 0.0
     yaw: 0.0
-- ==: RessourceSpawner
+- ==: ResourceSpawner
   name: diamond
   location:
     world: Trees
@@ -83,7 +87,7 @@ spawner:
     z: 29.62175956113019
     pitch: 0.0
     yaw: 0.0
-- ==: RessourceSpawner
+- ==: ResourceSpawner
   name: diamond
   location:
     world: Trees
@@ -92,7 +96,7 @@ spawner:
     z: 31.516731596585032
     pitch: 0.0
     yaw: 0.0
-- ==: RessourceSpawner
+- ==: ResourceSpawner
   name: diamond
   location:
     world: Trees
@@ -101,7 +105,7 @@ spawner:
     z: -28.654201264209135
     pitch: 0.0
     yaw: 0.0
-- ==: RessourceSpawner
+- ==: ResourceSpawner
   name: iron
   location:
     world: Trees
@@ -110,7 +114,7 @@ spawner:
     z: 0.5039340584151699
     pitch: 0.0
     yaw: 0.0
-- ==: RessourceSpawner
+- ==: ResourceSpawner
   name: iron
   location:
     world: Trees
@@ -119,7 +123,7 @@ spawner:
     z: 82.77564469986427
     pitch: 0.0
     yaw: 0.0
-- ==: RessourceSpawner
+- ==: ResourceSpawner
   name: gold
   location:
     world: Trees
@@ -128,7 +132,7 @@ spawner:
     z: 0.5039340584151699
     pitch: 0.0
     yaw: 0.0
-- ==: RessourceSpawner
+- ==: ResourceSpawner
   name: gold
   location:
     world: Trees
