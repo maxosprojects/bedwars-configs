@@ -53,66 +53,36 @@ shop:
         reward:
           type: WOOL
           amount: 16
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            lore:
-            - ""
       - price:
         - type: IRON_INGOT
           amount: 12
         reward:
           type: SANDSTONE
           amount: 16
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            lore:
-            - ""
       - price:
         - type: IRON_INGOT
           amount: 24
         reward:
           type: ENDER_STONE
           amount: 12
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            lore:
-            - ""
       - price:
         - type: IRON_INGOT
           amount: 4
         reward:
           type: LADDER
           amount: 16
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            lore:
-            - ""
       - price:
         - type: GOLD_INGOT
           amount: 4
         reward:
           type: WOOD
           amount: 16
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            lore:
-            - ""
       - price:
         - type: EMERALD
           amount: 4
         reward:
           type: OBSIDIAN
           amount: 4
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            lore:
-            - ""
   - name: armor
     button:
       type: DIAMOND_CHESTPLATE
@@ -136,7 +106,6 @@ shop:
               display-name: "&rPermanent Chainmail Armor"
               lore:
               - "&r&6Chainmail Leggings + Boots"
-              - ""
               ItemFlags:
               - HIDE_ATTRIBUTES
           upgrade:
@@ -155,7 +124,6 @@ shop:
               display-name: "&rPermanent Iron Armor"
               lore:
               - "&r&6Iron Leggings + Boots"
-              - ""
               ItemFlags:
               - HIDE_ATTRIBUTES
           upgrade:
@@ -174,92 +142,11 @@ shop:
               display-name: "&rPermanent Diamond Armor"
               lore:
               - "&r&6Diamond Leggings + Boots"
-              - ""
               ItemFlags:
               - HIDE_ATTRIBUTES
           upgrade:
             type: ARMOR_ITEM
             level: 3
-            permanent: true
-      - price:
-        - type: DIAMOND
-          amount: 2
-        reward:
-          button:
-            type: CHAINMAIL_CHESTPLATE
-            meta:
-              ==: ItemMeta
-              meta-type: UNSPECIFIC
-              display-name: "&r&6Upgrade All Team's Armor"
-              enchants:
-                PROTECTION_ENVIRONMENTAL: 1
-              ItemFlags:
-              - HIDE_ATTRIBUTES
-              lore:
-              - ""
-          upgrade:
-            type: ARMOR_PROTECTION
-            level: 1
-            permanent: true
-      - price:
-        - type: DIAMOND
-          amount: 4
-        reward:
-          button:
-            type: IRON_CHESTPLATE
-            meta:
-              ==: ItemMeta
-              meta-type: UNSPECIFIC
-              display-name: "&r&6Upgrade All Team's Armor"
-              enchants:
-                PROTECTION_ENVIRONMENTAL: 2
-              ItemFlags:
-              - HIDE_ATTRIBUTES
-              lore:
-              - ""
-          upgrade:
-            type: ARMOR_PROTECTION
-            level: 2
-            permanent: true
-      - price:
-        - type: DIAMOND
-          amount: 8
-        reward:
-          button:
-            type: GOLD_CHESTPLATE
-            meta:
-              ==: ItemMeta
-              meta-type: UNSPECIFIC
-              display-name: "&r&6Upgrade All Team's Armor"
-              enchants:
-                PROTECTION_ENVIRONMENTAL: 3
-              ItemFlags:
-              - HIDE_ATTRIBUTES
-              lore:
-              - ""
-          upgrade:
-            type: ARMOR_PROTECTION
-            level: 3
-            permanent: true
-      - price:
-        - type: DIAMOND
-          amount: 16
-        reward:
-          button:
-            type: DIAMOND_CHESTPLATE
-            meta:
-              ==: ItemMeta
-              meta-type: UNSPECIFIC
-              display-name: "&r&6Upgrade All Team's Armor"
-              enchants:
-                PROTECTION_ENVIRONMENTAL: 4
-              ItemFlags:
-              - HIDE_ATTRIBUTES
-              lore:
-              - ""
-          upgrade:
-            type: ARMOR_PROTECTION
-            level: 4
             permanent: true
   - name: tools
     button:
@@ -284,7 +171,6 @@ shop:
               display-name: "&r&bPermanent Shears"
               lore:
                 - "&r&6Destroy Wool quicker!"
-                - ""
           upgrade:
             type: ITEM
             level: 0
@@ -295,11 +181,6 @@ shop:
           amount: 10
         reward:
           type: WOOD_PICKAXE
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            lore:
-            - ""
       - price:
         - type: IRON_INGOT
           amount: 20
@@ -310,8 +191,6 @@ shop:
             meta-type: UNSPECIFIC
             enchants:
               DIG_SPEED: 1
-            lore:
-            - ""
       - price:
         - type: GOLD_INGOT
           amount: 8
@@ -322,8 +201,6 @@ shop:
             meta-type: UNSPECIFIC
             enchants:
               DIG_SPEED: 2
-            lore:
-            - ""
       - price:
         - type: GOLD_INGOT
           amount: 12
@@ -334,8 +211,6 @@ shop:
             meta-type: UNSPECIFIC
             enchants:
               DIG_SPEED: 3
-            lore:
-            - ""
       - price:
         - type: GOLD_INGOT
           amount: 12
@@ -346,8 +221,6 @@ shop:
             meta-type: UNSPECIFIC
             enchants:
               DIG_SPEED: 2
-            lore:
-            - ""
   - name: weapons
     button:
       type: DIAMOND_SWORD
@@ -369,8 +242,6 @@ shop:
               ==: ItemMeta
               meta-type: UNSPECIFIC
               display-name: "&rStone Sword"
-              lore:
-              - ""
           upgrade:
             type: SWORD_ITEM
             level: 1
@@ -384,8 +255,6 @@ shop:
               ==: ItemMeta
               meta-type: UNSPECIFIC
               display-name: "&rIron Sword"
-              lore:
-              - ""
           upgrade:
             type: SWORD_ITEM
             level: 2
@@ -399,19 +268,12 @@ shop:
               ==: ItemMeta
               meta-type: UNSPECIFIC
               display-name: "&rDiamond Sword"
-              lore:
-              - ""
           upgrade:
             type: SWORD_ITEM
             level: 3
       - price:
         - type: GOLD_INGOT
           amount: 10
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            lore:
-            - ""
         reward:
           type: STICK
           meta:
@@ -419,28 +281,6 @@ shop:
             meta-type: UNSPECIFIC
             enchants:
               KNOCKBACK: 1
-            lore:
-            - ""
-      - price:
-        - type: DIAMOND
-          amount: 4
-        reward:
-          button:
-            type: GOLD_SWORD
-            meta:
-              ==: ItemMeta
-              meta-type: UNSPECIFIC
-              display-name: "&r&bUpgrade All Team Swords"
-              enchants:
-                DAMAGE_ALL: 1
-              ItemFlags:
-              - HIDE_ATTRIBUTES
-              lore:
-              - ""
-          upgrade:
-            type: SWORD_SHARPNESS
-            level: 1
-            permanent: true
   - name: bows
     button:
       type: BOW
@@ -458,11 +298,6 @@ shop:
         reward:
           type: ARROW
           amount: 8
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            lore:
-            - ""
       - price:
         - type: GOLD_INGOT
           amount: 12
@@ -474,8 +309,6 @@ shop:
             enchants:
               ARROW_INFINITE: 1
             display-name: "&r&bBow I"
-            lore:
-            - ""
             ItemFlags:
             - HIDE_ENCHANTS
       - price:
@@ -492,7 +325,6 @@ shop:
             display-name: "&r&bBow II"
             lore:
             - "&r&7Power I"
-            - ""
             ItemFlags:
             - HIDE_ENCHANTS
       - price:
@@ -510,7 +342,6 @@ shop:
             display-name: "&r&bBow III"
             lore:
             - "&r&7Power I + Punch I"
-            - ""
             ItemFlags:
             - HIDE_ENCHANTS
   - name: potions
@@ -539,8 +370,6 @@ shop:
               effect: 1
               amplifier: 1
               duration: 900
-            lore:
-            - ""
       - price:
         - type: EMERALD
           amount: 1
@@ -558,7 +387,6 @@ shop:
               duration: 900
             lore:
             - "&r&9Jump Boost V (0:45)"
-            - ""
             ItemFlags:
             - HIDE_POTION_EFFECTS
       - price:
@@ -579,7 +407,6 @@ shop:
               has-particles: false
             lore:
             - "&r&9Invisibility (0:30)"
-            - ""
             ItemFlags:
             - HIDE_POTION_EFFECTS
   - name: utilities
@@ -598,22 +425,6 @@ shop:
           amount: 3
         reward:
           type: GOLDEN_APPLE
-      - price:
-        - type: DIAMOND
-          amount: 1
-        reward:
-          button:
-            type: TRIPWIRE_HOOK
-            meta:
-              ==: ItemMeta
-              meta-type: UNSPECIFIC
-              display-name: "&r&bBase Alarm"
-              lore:
-              - "&r&6Get informed when an enemy steps into your base and your enemy won't be able to move properly"
-              - ""
-          upgrade:
-            type: ALARM
-            level: 0
       # - price:
       #   - type: IRON_INGOT
       #     amount: 150
@@ -636,11 +447,6 @@ shop:
           amount: 5
         reward:
           type: TNT
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            lore:
-            - ""
       # - price:
       #   - type: IRON_INGOT
       #     amount: 5
@@ -656,11 +462,6 @@ shop:
           amount: 4
         reward:
           type: ENDER_PEARL
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            lore:
-            - ""
       # - price:
       #   - type: EMERALD
       #     amount: 1
@@ -684,6 +485,111 @@ shop:
     offers:
       - price:
         - type: DIAMOND
+          amount: 1
+        reward:
+          button:
+            type: TRIPWIRE_HOOK
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "&r&bBase Alarm"
+              lore:
+              - "&r&6Get informed when an enemy steps into your base and your enemy won't be able to move properly"
+          upgrade:
+            type: ALARM
+            level: 0
+      - price:
+        - type: DIAMOND
+          amount: 4
+        reward:
+          button:
+            type: GOLD_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "&r&bUpgrade All Team Swords"
+              enchants:
+                DAMAGE_ALL: 1
+              ItemFlags:
+              - HIDE_ATTRIBUTES
+          upgrade:
+            type: SWORD_SHARPNESS
+            level: 1
+            permanent: true
+      - price:
+        - type: DIAMOND
+          amount: 2
+        reward:
+          button:
+            type: CHAINMAIL_CHESTPLATE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "&r&6Upgrade All Team's Armor"
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+              ItemFlags:
+              - HIDE_ATTRIBUTES
+          upgrade:
+            type: ARMOR_PROTECTION
+            level: 1
+            permanent: true
+      - price:
+        - type: DIAMOND
+          amount: 4
+        reward:
+          button:
+            type: IRON_CHESTPLATE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "&r&6Upgrade All Team's Armor"
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 2
+              ItemFlags:
+              - HIDE_ATTRIBUTES
+          upgrade:
+            type: ARMOR_PROTECTION
+            level: 2
+            permanent: true
+      - price:
+        - type: DIAMOND
+          amount: 8
+        reward:
+          button:
+            type: GOLD_CHESTPLATE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "&r&6Upgrade All Team's Armor"
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 3
+              ItemFlags:
+              - HIDE_ATTRIBUTES
+          upgrade:
+            type: ARMOR_PROTECTION
+            level: 3
+            permanent: true
+      - price:
+        - type: DIAMOND
+          amount: 16
+        reward:
+          button:
+            type: DIAMOND_CHESTPLATE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "&r&6Upgrade All Team's Armor"
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 4
+              ItemFlags:
+              - HIDE_ATTRIBUTES
+          upgrade:
+            type: ARMOR_PROTECTION
+            level: 4
+            permanent: true
+      - price:
+        - type: DIAMOND
           amount: 2
         reward:
           button:
@@ -694,7 +600,6 @@ shop:
               display-name: "&r&bIron Forge"
               lore:
                 - "&r&6Increases the spawn rate of Iron and Gold by 50%"
-                - ""
           upgrade:
             type: FORGE
             level: 1
@@ -710,7 +615,6 @@ shop:
               display-name: "&r&bGolden Forge"
               lore:
                 - "&r&6Increases the spawn rate of Iron and Gold by 100%"
-                - ""
           upgrade:
             type: FORGE
             level: 2
@@ -726,7 +630,6 @@ shop:
               display-name: "&r&bEmerald Forge"
               lore:
                 - "&r&6Activates the Emerald spawner in your team's Forge"
-                - ""
           upgrade:
             type: FORGE
             level: 3
@@ -742,7 +645,6 @@ shop:
               display-name: "&r&bEmerald Forge"
               lore:
                 - "&r&6Increases the spawn rate of Emerald, Iron and Gold by 200%"
-                - ""
           upgrade:
             type: FORGE
             level: 4

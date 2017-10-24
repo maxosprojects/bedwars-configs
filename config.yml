@@ -155,16 +155,6 @@ bungeecord:
       &7[&b$currentplayers$&7/&b$maxplayers$&7]
 locale: en_US
 resource:
-  bronze:
-    item:
-    - type: CLAY_BRICK
-      amount: 1
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        display-name: §4Bronze
-    spawn-interval: 1000
-    spread: 1.0
   iron:
     item:
     - type: IRON_INGOT
@@ -173,7 +163,7 @@ resource:
         meta-type: UNSPECIFIC
         display-name: §7Iron
     spawn-interval: 3000
-    spread: 1.0
+    spread: 0.0
   gold:
     item:
     - type: GOLD_INGOT
@@ -182,7 +172,7 @@ resource:
         meta-type: UNSPECIFIC
         display-name: §6Gold
     spawn-interval: 12000
-    spread: 1.0
+    spread: 0.0
   diamond:
     item:
     - type: DIAMOND
@@ -200,6 +190,15 @@ resource:
         meta-type: UNSPECIFIC
         display-name: §aEmerald
     spawn-interval: 50000
+    spread: 0.0
+  emerald_team:
+    item:
+    - type: EMERALD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aEmerald
+    spawn-interval: 600000
     spread: 0.0
 check-updates: true
 update-infos: true

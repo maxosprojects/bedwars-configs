@@ -1,28 +1,28 @@
-name: Trees
-world: Trees
+name: Lectus
+world: Lectus
 loc1:
-  world: Trees
-  x: -135.0
-  y: 120.0
-  z: -135.0
+  world: Lectus
+  x: 76.0
+  y: 111.0
+  z: -63.0
   pitch: 0.0
   yaw: 0.0
 loc2:
-  world: Trees
-  x: 153.0
-  y: 43.0
-  z: 153.0
+  world: Lectus
+  x: -78.0
+  y: 37.0
+  z: 78.0
   pitch: 0.0
   yaw: 0.0
 lobby:
-  world: TreesLobby
+  world: LectusLobby
   x: 0.0
   y: 118.0
   z: 0.0
   pitch: 0.0
   yaw: -90.0
 minplayers: 2
-regionname: Trees
+regionname: Lectus
 time: 1000
 targetmaterial: BED_BLOCK
 builder: Max
@@ -54,114 +54,114 @@ spawners:
 - ==: ResourceSpawner
   name: emerald
   location:
-    world: Trees
-    x: -6.5
-    y: 71.0
-    z: -10.5
+    world: Lectus
+    x: 14.5
+    y: 65.0
+    z: 0.5
     pitch: 0.0
     yaw: 0.0
 - ==: ResourceSpawner
   name: emerald
   location:
-    world: Trees
-    x: 8.5
-    y: 71.0
-    z: 12.5
+    world: Lectus
+    x: -13.5
+    y: 65.0
+    z: 0.5
     pitch: 0.0
     yaw: 0.0
 - ==: ResourceSpawner
   name: diamond
   location:
-    world: Trees
-    x: 29.5
-    y: 67.0
-    z: -30.5
+    world: Lectus
+    x: -54.5
+    y: 65.0
+    z: 0.5
     pitch: 0.0
     yaw: 0.0
 - ==: ResourceSpawner
   name: diamond
   location:
-    world: Trees
-    x: 31.5
-    y: 67.0
-    z: 29.5
+    world: Lectus
+    x: 0.5
+    y: 65.0
+    z: -53.5
     pitch: 0.0
     yaw: 0.0
 - ==: ResourceSpawner
   name: diamond
   location:
-    world: Trees
-    x: -28.5
-    y: 67.0
-    z: 31.5
+    world: Lectus
+    x: 54.5
+    y: 65.0
+    z: 0.5
     pitch: 0.0
     yaw: 0.0
 - ==: ResourceSpawner
   name: diamond
   location:
-    world: Trees
-    x: -30.5
-    y: 67.0
-    z: -28.5
+    world: Lectus
+    x: 0.5
+    y: 65.0
+    z: 54.5
     pitch: 0.0
     yaw: 0.0
 - ==: ResourceSpawner
   name: iron
   location:
-    world: Trees
-    x: 82.5
-    y: 66.0
-    z: 0.5
+    world: Lectus
+    x: 45.5
+    y: 65.5
+    z: 53.5
     pitch: 0.0
     yaw: 0.0
   team: "Red"
 - ==: ResourceSpawner
   name: iron
   location:
-    world: Trees
-    x: 0.5
-    y: 66.0
-    z: 82.5
+    world: Lectus
+    x: 53.5
+    y: 65.5
+    z: -44.5
     pitch: 0.0
     yaw: 0.0
   team: "Blue"
 - ==: ResourceSpawner
   name: gold
   location:
-    world: Trees
-    x: 82.5
-    y: 66.0
-    z: 0.5
+    world: Lectus
+    x: 45.5
+    y: 65.5
+    z: 53.5
     pitch: 0.0
     yaw: 0.0
   team: "Red"
 - ==: ResourceSpawner
   name: gold
   location:
-    world: Trees
-    x: 0.5
-    y: 66.0
-    z: 82.5
+    world: Lectus
+    x: 53.5
+    y: 65.5
+    z: -44.5
     pitch: 0.0
     yaw: 0.0
   team: "Blue"
 - ==: ResourceSpawner
   name: emerald_team
   location:
-    world: Trees
-    x: 82.5
-    y: 66.0
-    z: 0.5
+    world: Lectus
+    x: 45.5
+    y: 65.5
+    z: 53.5
     pitch: 0.0
     yaw: 0.0
   team: "Red"
 - ==: ResourceSpawner
   name: emerald_team
   location:
-    world: Trees
-    x: 0.5
-    y: 66.0
-    z: 82.5
+    world: Lectus
+    x: 53.5
+    y: 65.5
+    z: -44.5
     pitch: 0.0
     yaw: 0.0
   team: "Blue"
@@ -169,94 +169,94 @@ teams:
   Red:
     ==: Team
     bedfeed:
-      world: Trees
-      x: 66.0
-      y: 67.0
-      z: 0.0
+      world: Lectus
+      x: 40.0
+      y: 66.0
+      z: 42.0
       pitch: 0.0
       yaw: 0.0
     spawn:
-      world: Trees
-      x: 78.5
+      world: Lectus
+      x: 48.4
       y: 66.0
-      z: 0.5
+      z: 49.4
       pitch: 0.0
-      yaw: -270.0
+      yaw: 135.0
     color: RED
     name: Red
     maxplayers: 1
     baseloc1:
-      world: Trees
-      x: 86.0
-      y: 98.0
-      z: 14.0
+      world: Lectus
+      x: 36.0
+      y: 54.0
+      z: 37.0
       pitch: 0.0
       yaw: 0.0
     baseloc2:
-      world: Trees
-      x: 60.0
-      y: 45.0
-      z: -10.0
+      world: Lectus
+      x: 55.0
+      y: 88.0
+      z: 57.0
       pitch: 0.0
       yaw: 0.0
     bedhead:
-      world: Trees
-      x: 67.0
-      y: 67.0
-      z: 0.0
+      world: Lectus
+      x: 41.0
+      y: 66.0
+      z: 42.0
       pitch: 0.0
       yaw: 0.0
     chestloc:
-      world: Trees
-      x: 77.0
+      world: Lectus
+      x: 51.0
       y: 66.0
-      z: 3.0
+      z: 50.0
       pitch: 0.0
       yaw: 0.0
   Blue:
     ==: Team
     bedfeed:
-      world: Trees
-      x: 0.0
-      y: 67.0
-      z: 66.0
+      world: Lectus
+      x: 42.0
+      y: 66.0
+      z: -40.0
       pitch: 0.0
       yaw: 0.0
     spawn:
-      world: Trees
-      x: 0.5
+      world: Lectus
+      x: 49.5
       y: 66.0
-      z: 78.5
+      z: -47.5
       pitch: 0.0
-      yaw: -180.0
+      yaw: 45.0
     color: BLUE
     name: Blue
     maxplayers: 1
     baseloc1:
-      world: Trees
-      x: -13.0
-      y: 98.0
-      z: 85.0
+      world: Lectus
+      x: 57.0
+      y: 88.0
+      z: -55.0
       pitch: 0.0
       yaw: 0.0
     baseloc2:
-      world: Trees
-      x: 12.0
-      y: 47.0
-      z: 61.0
+      world: Lectus
+      x: 36.0
+      y: 51.0
+      z: -35.0
       pitch: 0.0
       yaw: 0.0
     bedhead:
-      world: Trees
-      x: 0.0
-      y: 67.0
-      z: 67.0
+      world: Lectus
+      x: 42.0
+      y: 66.0
+      z: -41.0
       pitch: 0.0
       yaw: 0.0
     chestloc:
-      world: Trees
-      x: -3.0
+      world: Lectus
+      x: 50.0
       y: 66.0
-      z: 77.0
+      z: -51.0
       pitch: 0.0
       yaw: 0.0
